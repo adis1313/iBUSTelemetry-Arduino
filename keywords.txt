@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map for SoftwareSerialWithHalfDuplex
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+iBUSTelemetry	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+run 	KEYWORD2
+listen	KEYWORD2
+end	KEYWORD2
+isListening	KEYWORD2
+stopListening	KEYWORD2
+overflow	KEYWORD2
+peek	KEYWORD2
+addSensor	KEYWORD2
+setSensorValue	KEYWORD2
+setSensorValueFP	KEYWORD2
+gpsStateValues	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+available	KEYWORD2
+flush	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
