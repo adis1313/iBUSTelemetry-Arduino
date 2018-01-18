@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map for SoftwareSerialWithHalfDuplex
+# Syntax Coloring Map for iBUSTelemetry
 #######################################
 
 #######################################
@@ -29,8 +29,6 @@ read	KEYWORD2
 available	KEYWORD2
 flush	KEYWORD2
 
-
 #######################################
 # Constants (LITERAL1)
 #######################################
-
