@@ -18,6 +18,22 @@ Big thanks to the authors!
 #ifndef iBUSSensors_h
 #define iBUSSensors_h
 
+#define MAX_SENS_COUNT 15
+
+#define STAB   0
+#define ACRO   1
+#define AHOLD  2
+#define AUTO   3
+#define GUIDED 4
+#define LOITER 5
+#define RTL    6
+#define CIRCLE 7
+#define PHOLD  8
+#define LAND   9
+
+#define UNARMED 0
+#define ARMED   1
+
 // 2 byte sensors
 
 #define IBUS_MEAS_TYPE_TEM				0x01	// Temperature

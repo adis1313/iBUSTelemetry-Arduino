@@ -27,22 +27,6 @@ Big thanks to the authors!
 #define GCC_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100 + __GNUC_PATCHLEVEL__)
 #endif
 
-#define MAX_SENS_COUNT 15
-
-#define STAB   0
-#define ACRO   1
-#define AHOLD  2
-#define AUTO   3
-#define GUIDED 4
-#define LOITER 5
-#define RTL    6
-#define CIRCLE 7
-#define PHOLD  8
-#define LAND   9
-
-#define UNARMED 0
-#define ARMED   1
-
 class iBUSTelemetry : public Stream
 {
 private:

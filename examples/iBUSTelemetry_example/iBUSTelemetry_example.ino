@@ -26,7 +26,7 @@ void loop()
 {
   updateValues(); //Very important! iBUS protocol is very sensitive to timings.
                   //DO NOT USE ANY delay()! Look at updateValues() method. 
-                  //It's an example of how to using intervals without delays.
+                  //It's an example of how to use intervals without delays.
                   
   telemetry.run(); ///It must be here. Period.
 }
@@ -35,7 +35,7 @@ void updateValues()
 {
   uint32_t currMillis = millis();
   
-  if(currMillis - prevMillis >= UPDATE_INTERVAL) //Code in the middle of this method will be performed every 500ms.
+  if(currMillis - prevMillis >= UPDATE_INTERVAL) //Code in the middle of these brackets will be performed every 500ms.
   {
     prevMillis = currMillis;
     
