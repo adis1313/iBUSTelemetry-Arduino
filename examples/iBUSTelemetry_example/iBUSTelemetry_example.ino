@@ -7,8 +7,7 @@ iBUSTelemetry telemetry(11); // I use only PCINT0 interrupt vector, so you can u
 uint32_t prevMillis = 0; // Necessary to updateValues() method. Look below.
 float i = 0;
 
-void
-setup()
+void setup()
 {
     telemetry.begin(); // Let's start having fun!
 
@@ -23,8 +22,7 @@ setup()
     telemetry.addSensor(IBUS_MEAS_TYPE_ALT);
 }
 
-void
-loop()
+void loop()
 {
     updateValues(); // Very important! iBUS protocol is very sensitive to timings.
                     // DO NOT USE ANY delay()! Look at updateValues() method.
@@ -33,8 +31,7 @@ loop()
     telemetry.run(); //It must be here. Period.
 }
 
-void
-updateValues()
+void updateValues()
 {
     uint32_t currMillis = millis();
 
