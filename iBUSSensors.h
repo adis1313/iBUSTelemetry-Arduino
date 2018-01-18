@@ -43,7 +43,7 @@
 #define IBUS_MEAS_TYPE_FUEL           0x06 // Remaining battery percentage
 #define IBUS_MEAS_TYPE_RPM            0x07 // Throttle value / battery capacity
 #define IBUS_MEAS_TYPE_CMP_HEAD       0x08 // Heading
-#define IBUS_MEAS_TYPE_CLIMB_RATE     0x09 // Clim rate
+#define IBUS_MEAS_TYPE_CLIMB_RATE     0x09 // Climb rate
 #define IBUS_MEAS_TYPE_COG            0x0a // Course over ground
 #define IBUS_MEAS_TYPE_GPS_STATUS     0x0b // GPS status (2 values)
 #define IBUS_MEAS_TYPE_ACC_X          0x0c // Acc X
